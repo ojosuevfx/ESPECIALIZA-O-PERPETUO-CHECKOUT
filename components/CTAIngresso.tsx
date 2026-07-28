@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 
-const FORM_URL = "https://form.respondi.app/EFUKckil";
+const FORM_URL = "https://pay.hub.la/CTTv7HhCY7SEmxnWkSZS";
 const TRACKING_PARAMS = [
   "utm_source",
   "utm_medium",
