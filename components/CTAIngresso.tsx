@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
 
@@ -114,13 +113,6 @@ export default function CTAIngresso() {
           }}
         >
           <div aria-hidden="true" style={{ position: "absolute", inset: 0, background: "radial-gradient(circle at 50% 18%, rgba(214,173,97,0.12) 0%, transparent 58%)", pointerEvents: "none" }} />
-          <Image
-            src="/nova-logo.webp"
-            alt="Especialização em Aristóteles"
-            width={108}
-            height={159}
-            style={{ position: "absolute", top: "-12px", right: "28px", width: "108px", height: "159px", objectFit: "contain", opacity: 0.96 }}
-          />
           <div style={{ position: "relative", zIndex: 1, textAlign: "center" }}>
             <p style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "26px", lineHeight: "120%", letterSpacing: "-0.02em", color: "rgba(244,245,246,0.34)", margin: "0 0 8px" }}>
               De: <span style={{ color: "#ff4d4d", textDecoration: "line-through" }}>R$ 1459,90</span>
