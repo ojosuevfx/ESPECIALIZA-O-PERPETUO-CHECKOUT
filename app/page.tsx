@@ -9,7 +9,6 @@ import TurmaFundadora from "@/components/TurmaFundadora";
 import ForWho from "@/components/ForWho";
 import CTAIngresso from "@/components/CTAIngresso";
 import FAQ from "@/components/FAQ";
-import Footer from "@/components/Footer";
 import SmoothScroll from "@/components/SmoothScroll";
 
 export default function Home() {
@@ -27,7 +26,6 @@ export default function Home() {
       <ForWho />
       <CTAIngresso />
       <FAQ />
-      <Footer />
     </main>
   );
 }
