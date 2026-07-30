@@ -9,18 +9,18 @@
   --font-body:    'Inter', sans-serif;
 
   /* Dark theme defaults */
-  --color-bg-base:      #09090B;
-  --color-bg-main:      #0C0A06;
-  --color-bg-surface:   #111113;
-  --color-bg-card:      #0D0F10;
-  --color-bg-card-top:  #1E2424;
+  --color-bg-base:      #070908;
+  --color-bg-main:      #0A0F0D;
+  --color-bg-surface:   #121311;
+  --color-bg-card:      #101411;
+  --color-bg-card-top:  #202A22;
   --color-text-primary: #F4F5F6;
-  --color-text-muted:   #8A9AA4;
+  --color-text-muted:   #A0AAA4;
   --color-text-dark:    #0D0F10;
   --color-text-on-accent: #0D0F10;
-  --color-accent:       #c8a96e;
-  --color-accent-light: #e2c98a;
-  --color-accent-dim:   rgba(200,169,110,0.12);
+  --color-accent:       #d6ad61;
+  --color-accent-light: #efd28d;
+  --color-accent-dim:   rgba(214,173,97,0.12);
   --color-border:       rgba(244,245,246,0.07);
   --color-border-subtle: rgba(244,245,246,0.06);
   --color-border-accent: rgba(200,169,110,0.20);
@@ -32,9 +32,9 @@
   --color-text-p25:     rgba(244,245,246,0.25);
   --color-text-p20:     rgba(244,245,246,0.20);
   --color-text-p08:     rgba(244,245,246,0.08);
-  --gradient-cta:       linear-gradient(90deg, #c8a96e 0%, #e2c98a 100%);
-  --gradient-card:      radial-gradient(100% 100% at 50% 0px, #1E2424 0%, #0D0F10 100%);
-  --gradient-footer:    radial-gradient(50% 220% at 50% 205%, #1E2424 0%, #0D0F10 100%);
+  --gradient-cta:       linear-gradient(90deg, #d6ad61 0%, #efd28d 100%);
+  --gradient-card:      radial-gradient(100% 100% at 50% 0px, #202A22 0%, #101411 100%);
+  --gradient-footer:    radial-gradient(50% 220% at 50% 205%, #202A22 0%, #101411 100%);
   --navbar-bg-scrolled: rgba(9,9,11,0.72);
   --navbar-bg-top:      rgba(9,9,11,0.20);
   --navbar-border:      rgba(255,255,255,0.08);
@@ -78,7 +78,9 @@
 html { scroll-behavior: smooth; transition: background-color 300ms ease, color 300ms ease; }
 
 body {
-  background: var(--color-bg-base);
+  background:
+    radial-gradient(circle at 12% 0%, rgba(214,173,97,0.08), transparent 28%),
+    linear-gradient(180deg, #070908 0%, #0A0F0D 46%, #070908 100%);
   color: var(--color-text-primary);
   font-family: var(--font-body);
   font-size: 16px;

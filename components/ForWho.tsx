@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 const isFor = [
   { text: "Você tem sede da verdade e quer conhecer as fontes primárias com profundidade" },
   { text: "Você quer aprender a pensar, não decorar máximas soltas para repetir por aí" },
-  { text: "Você quer estudar filosofia com método, na ordem correta, com um professor te guiando em cada passo" },
-  { text: "Você quer uma base sólida para se aprofundar, no futuro, na teologia, na sua fé ou no seu trabalho como professor/catequista" },
+  { text: "Você quer estudar lógica aristotélica com método, na ordem correta, com um professor te guiando em cada passo" },
+  { text: "Você quer uma base sólida antes de avançar para ética, política, metafísica ou teologia" },
 ];
 
 const isNotFor = [
@@ -50,7 +50,7 @@ export default function ForWho() {
                 <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 500, fontSize: "11px", letterSpacing: "0.12em", textTransform: "uppercase", color: "#c8a96e" }}>Para quem é</span>
               </div>
               <h3 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "26px", lineHeight: "120%", letterSpacing: "-0.02em", color: "#F4F5F6", margin: 0 }}>
-                A Especialização é para você se...
+                A formação é para você se...
               </h3>
             </div>
 
@@ -118,7 +118,7 @@ export default function ForWho() {
             {/* Disclaimer */}
             <div style={{ marginTop: "auto", paddingTop: "28px", borderTop: "1px solid rgba(244,245,246,0.05)" }}>
               <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "13px", lineHeight: "160%", color: "#3A4A54", margin: 0 }}>
-                A proposta é exigente porque o objetivo não é entretenimento intelectual, mas formação real.
+                A proposta é exigente porque o objetivo não é entretenimento intelectual, mas domínio real da lógica.
               </p>
             </div>
           </div>

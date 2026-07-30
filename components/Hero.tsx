@@ -35,10 +35,11 @@ export default function Hero() {
   return (
     <section
       ref={ref}
+      className="hero-section"
       style={{
         position: "relative",
         width: "100%",
-        minHeight: "100vh",
+        minHeight: "84vh",
         display: "flex",
         alignItems: "center",
         overflow: "hidden",
@@ -127,17 +128,16 @@ export default function Hero() {
             style={{ width: "6px", height: "6px", borderRadius: "50%", background: "var(--color-accent)", flexShrink: 0, display: "block" }}
           />
           <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 500, fontSize: "12px", color: "var(--color-accent)", letterSpacing: "0.06em", textTransform: "uppercase" }}>
-            Especialização em Aristóteles
+            Formação em lógica aristotélica
           </span>
         </motion.div>
 
         {/* H1 */}
         <h1 className="hero-h1" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, lineHeight: "106%", letterSpacing: "-0.035em", fontSize: "80px", margin: 0 }}>
           {[
-            { text: "Pare de estudar filosofia", gold: false, breakAfter: true },
-            { text: "sozinho, ", gold: false, breakAfter: false },
-            { text: "na ordem errada", gold: true, breakAfter: true },
-            { text: "e entendendo tudo pela metade.", gold: false },
+            { text: "Domine a base de toda", gold: false, breakAfter: true },
+            { text: "filosofia:", gold: false, breakAfter: true },
+            { text: "a Lógica Aristotélica.", gold: true },
           ].map((line, i) => (
             <span key={i}>
               <motion.span
@@ -161,7 +161,7 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.7, ease: [0.16, 1, 0.3, 1] }}
           style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "17px", lineHeight: "170%", color: "var(--color-text-muted)", maxWidth: "560px", margin: 0 }}
         >
-          Chegou a hora de estudar com método, seguindo o currículo de uma das universidades mais renomadas do mundo em educação clássica, o Thomas Aquinas College. O maior projeto online de ensino aristotélico em língua portuguesa do mundo está com turmas abertas: estude na ordem certa, direto das fontes primárias, com um mestre guiando cada passo, mesmo que nunca tenha estudado filosofia antes.
+          Estude a porta de entrada da tradição aristotélica: Filosofia da Razão, Órganon, silogismo e demonstração. Uma formação online para aprender a pensar com ordem, ler Aristóteles direto das fontes e deixar de depender de resumos soltos.
         </motion.p>
 
         {/* CTAs */}
@@ -173,7 +173,7 @@ export default function Hero() {
           style={{ display: "flex", gap: "12px", alignItems: "center" }}
         >
           <Link
-            href="#lyceum"
+            href="#ingresso"
             className="btn-cta"
             style={{
               display: "inline-flex", alignItems: "center", gap: "8px",
@@ -183,7 +183,7 @@ export default function Hero() {
             }}
           >
             <span style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 700, fontSize: "15px", color: "var(--color-text-on-accent)" }}>
-              Quero conhecer a Especialização
+              Quero estudar lógica aristotélica
             </span>
           </Link>
         </motion.div>
@@ -194,12 +194,13 @@ export default function Hero() {
         @media (max-width: 1199px) { .hero-inner { width: 100% !important; } }
         @media (max-width: 1100px) { .hero-h1 { font-size: 62px !important; } }
         @media (max-width: 768px) {
-          .hero-h1 { font-size: 40px !important; letter-spacing: -0.02em !important; }
-          .hero-lead { font-size: 15px !important; }
+          .hero-section { align-items: flex-end !important; min-height: 100svh !important; }
+          .hero-h1 { font-size: 36px !important; letter-spacing: -0.02em !important; }
+          .hero-lead { font-size: 14px !important; line-height: 160% !important; }
           .hero-cta-row { flex-direction: column !important; width: 100% !important; }
           .hero-cta-row a { width: 100% !important; justify-content: center !important; }
-          .hero-inner { padding: 60px 24px 100px !important; }
-          .aristoteles-bg { object-position: 68% 18% !important; transform: scale(1.05) !important; transform-origin: 68% 18% !important; filter: blur(1.5px) !important; }
+          .hero-inner { gap: 22px !important; padding: 0 24px 116px !important; }
+          .aristoteles-bg { object-position: 64% 100% !important; transform: translateY(64px) scale(1.24) !important; transform-origin: 64% 100% !important; filter: blur(1.5px) !important; }
         }
       `}</style>
     </section>

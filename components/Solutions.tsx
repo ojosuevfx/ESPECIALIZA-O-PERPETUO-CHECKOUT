@@ -32,14 +32,14 @@ function IconPerson() {
 }
 
 const pillars = [
-  { Icon: IconBook, num: "01", title: "Currículo Tradicional", description: "Seguindo a divisão da filosofia clássica estabelecida desde os medievais: Lógica, Filosofia da Natureza, Ética, Política e Metafísica. Uma ordem que não é nossa — é da tradição." },
-  { Icon: IconLive, num: "02", title: "Fontes Primárias", description: "Você lê diretamente os textos dos próprios filósofos. Sem resumos, sem intermediários. Todo o material de estudo está incluído e disponível na plataforma." },
-  { Icon: IconPerson, num: "03", title: "Um mentor que já percorreu esse caminho", description: "Lucca de Tomás estudou e viveu o currículo que hoje transmite. Você aprende com quem já foi pelo mesmo percurso." },
+  { Icon: IconBook, num: "01", title: "Filosofia da Razão", description: "Antes de discutir qualquer tema filosófico, você aprende o instrumento do pensamento: como formar conceitos, distinguir termos e ordenar o raciocínio." },
+  { Icon: IconLive, num: "02", title: "Órganon", description: "Você percorre os textos lógicos de Aristóteles na ordem clássica: Isagoge, Categorias, Da Interpretação, Analíticos e Tópicos." },
+  { Icon: IconPerson, num: "03", title: "Silogismo e demonstração", description: "O estudo culmina na capacidade de compreender e construir argumentos demonstrativos, distinguindo raciocínio válido de confusão verbal." },
 ];
 
 export default function Solutions() {
   return (
-    <section id="solucoes" style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "64px", width: "100%", padding: "120px 0" }}>
+    <section id="curriculo" style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "64px", width: "100%", padding: "120px 0" }}>
 
       {/* Heading */}
       <motion.div
@@ -51,11 +51,11 @@ export default function Solutions() {
         style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "20px", maxWidth: "640px", textAlign: "center" }}
       >
         <h2 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "40px", lineHeight: "114%", letterSpacing: "-0.025em", margin: 0 }}>
-          <span style={{ color: "#F4F5F6" }}>Três pilares de uma formação </span>
-          <span style={{ color: "#c8a96e" }}>filosófica séria.</span>
+          <span style={{ color: "#F4F5F6" }}>O que você aprende nesta </span>
+          <span style={{ color: "#c8a96e" }}>formação.</span>
         </h2>
         <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "15px", lineHeight: "170%", color: "#8A9AA4", margin: 0 }}>
-          A Especialização é construída sobre os mesmos alicerces que a tradição filosófica ergueu ao longo de séculos.
+          O curso não tenta ensinar Aristóteles inteiro de uma vez. Ele entrega a base que vem antes de todo o resto: a lógica.
         </p>
       </motion.div>
 

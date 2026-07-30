@@ -20,10 +20,8 @@ export default function About() {
           border: "1px solid var(--color-border)",
         }}
       >
-        {/* Glow */}
         <div aria-hidden="true" style={{ position: "absolute", top: "-200px", left: "50%", transform: "translateX(-50%)", width: "500px", height: "500px", borderRadius: "50%", background: "radial-gradient(circle, rgba(200,169,110,0.09) 0%, transparent 70%)", filter: "blur(80px)", zIndex: 0, pointerEvents: "none" }} />
 
-        {/* Image */}
         <motion.div
           className="about-image-col"
           initial={{ opacity: 0, x: -40, filter: "blur(10px)" }}
@@ -40,7 +38,6 @@ export default function About() {
           />
         </motion.div>
 
-        {/* Text */}
         <motion.div
           className="about-text-col"
           initial={{ opacity: 0, x: 40, filter: "blur(8px)" }}
@@ -50,16 +47,16 @@ export default function About() {
           style={{ display: "flex", flexDirection: "column", gap: "28px", width: "44%", zIndex: 1 }}
         >
           <h3 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "32px", lineHeight: "118%", letterSpacing: "-0.025em", color: "var(--color-text-primary)", margin: 0 }}>
-            O que é a Especialização em{" "}
-            <span style={{ color: "var(--color-accent)" }}>Aristóteles.</span>
+            Uma formação inteira dedicada à{" "}
+            <span style={{ color: "var(--color-accent)" }}>Lógica Aristotélica.</span>
           </h3>
 
           <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "15px", lineHeight: "170%", color: "var(--color-text-muted)", margin: 0 }}>
-            É o maior projeto online de ensino aristotélico em língua portuguesa do mundo, onde você passará por uma formação clássica completa, desde as bases da lógica ao ápice da metafísica, trilhando o caminho que universidades clássicas renomadas, como o Thomas Aquinas College, trilham.
+            A lógica não é uma disciplina lateral. É a ferramenta que permite estudar qualquer coisa com clareza: definir, distinguir, julgar, argumentar e demonstrar sem cair em confusão.
           </p>
 
           <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "15px", lineHeight: "170%", color: "var(--color-text-muted)", margin: 0 }}>
-            Aqui você não vai ouvir uma opinião sobre Aristóteles. Você vai ler Aristóteles a partir dos textos originais do filósofo, em um nível de compreensão extremamente profundo. Você não vai decorar que existem 5 predicáveis e 10 categorias &quot;porque sim&quot;: vai entender por que isso é verdade, refazendo o raciocínio com as próprias mãos e pensando por conta própria.
+            Nesta formação, você percorre a ordem clássica estabelecida pela tradição: Isagoge, Categorias, Da Interpretação, Analíticos Primeiros, Analíticos Segundos e Tópicos.
           </p>
 
           <div style={{
@@ -70,17 +67,17 @@ export default function About() {
             borderLeft: "3px solid rgba(200,169,110,0.5)",
           }}>
             <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "14px", lineHeight: "165%", color: "var(--color-text-muted)", margin: "0 0 8px", fontStyle: "italic" }}>
-              Filosofia, que no sentido etimológico significa amor à sabedoria, pode definir-se: a ciência que trata das causas supremas dos entes, descobertas pela luz natural da razão.
+              O objetivo é simples e exigente: sair das primeiras noções lógicas até conseguir montar um silogismo demonstrativo irrefutável.
             </p>
             <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 600, fontSize: "11px", color: "var(--color-accent)", letterSpacing: "0.06em", textTransform: "uppercase" }}>
-              Definição clássica de filosofia
+              Meta da formação
             </span>
           </div>
 
-          <Link href="#beneficios" className="btn-cta"
+          <Link href="#ingresso" className="btn-cta"
             style={{ display: "inline-flex", alignItems: "center", gap: "10px", padding: "13px 28px", borderRadius: "200px", textDecoration: "none", background: "linear-gradient(90deg, #c8a96e 0%, #e2c98a 100%)", cursor: "pointer", width: "fit-content" }}
           >
-            <span style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 700, fontSize: "14px", color: "var(--color-text-on-accent)" }}>Ver benefícios</span>
+            <span style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 700, fontSize: "14px", color: "var(--color-text-on-accent)" }}>Garantir meu acesso!</span>
             <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
               <path d="M3 8h10M9 4l4 4-4 4" stroke="var(--color-text-on-accent)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
             </svg>

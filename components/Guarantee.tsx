@@ -79,7 +79,7 @@ export default function Guarantee() {
             Você não corre riscos.
           </h2>
           <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "16px", lineHeight: "170%", color: "#8A9AA4", margin: 0, maxWidth: "620px" }}>
-            Se dentro de 7 dias você perceber que a Especialização não é para você, devolvemos 100% do seu investimento. Sem burocracia.
+            Se dentro de 7 dias você perceber que a formação não é para você, devolvemos 100% do seu investimento. Sem burocracia.
           </p>
           <Link
             href="#ingresso"
@@ -95,7 +95,7 @@ export default function Guarantee() {
             }}
           >
             <span style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 700, fontSize: "14px", color: "#0D0F10" }}>
-              Quero dominar a filosofia clássica
+              Quero estudar Lógica Aristotélica
             </span>
           </Link>
         </div>

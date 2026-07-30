@@ -6,9 +6,10 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { label: "Curso", href: "#lyceum" },
-  { label: "Currículo", href: "#curriculo" },
-  { label: "Benefícios", href: "#beneficios" },
+  { label: "Formação", href: "#lyceum" },
+  { label: "Conteúdo", href: "#curriculo" },
+  { label: "Método", href: "#metodo" },
+  { label: "Acesso", href: "#beneficios" },
   { label: "FAQ", href: "#faq" },
 ];
 
@@ -178,7 +179,7 @@ export default function Navbar() {
                 }}
               >
                 <span style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 700, fontSize: "15px", color: "var(--color-text-on-accent)" }}>
-                  Conhecer o curso
+                  Estudar lógica aristotélica
                 </span>
                 <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true">
                   <path d="M3 8h10M9 4l4 4-4 4" stroke="var(--color-text-on-accent)" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />

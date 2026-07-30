@@ -61,18 +61,18 @@ export default function Founder() {
           <div>
             <h2 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "34px", lineHeight: "116%", letterSpacing: "-0.025em", color: "#F4F5F6", margin: 0 }}>
               Conheça o professor que vai{" "}
-              <span style={{ color: "#c8a96e" }}>guiar o seu percurso.</span>
+              <span style={{ color: "#c8a96e" }}>te guiar.</span>
             </h2>
           </div>
 
           <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "15px", lineHeight: "170%", color: "#8A9AA4", margin: 0 }}>
             Lucca de Tomás é professor, tradutor e fundador do Lyceum. Estudou no{" "}
             <strong style={{ color: "#F4F5F6", fontWeight: 600 }}>Thomas Aquinas College (EUA)</strong>
-            , uma das instituições mais rigorosas do mundo no ensino clássico. Ele traduz as obras do currículo diretamente do latim de Boécio e de traduções que trouxe dos seus próprios professores, para você não depender das edições ruins que circulam atualmente no Brasil.
+            , uma das instituições mais rigorosas do mundo no ensino clássico. Ele conduz o aluno pela lógica aristotélica com o cuidado de quem conhece a ordem tradicional e sabe onde os estudantes costumam travar.
           </p>
 
           <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "15px", lineHeight: "170%", color: "#8A9AA4", margin: 0 }}>
-            Mais do que um professor, ele é o guia que faltava: alguém que já percorreu o caminho e conduz a discussão para que você chegue à verdade, em vez de receber respostas prontas para decorar. Com experiência de aulas para mais de 500 alunos, Lucca irá transmitir diretamente o que faltou na sua formação intelectual.
+            Mais do que um professor, ele é o guia que faltava: alguém que já percorreu o caminho e conduz a aula para que você compreenda os termos, as proposições e os silogismos por dentro, em vez de receber respostas prontas para decorar.
           </p>
 
           {/* Quote */}

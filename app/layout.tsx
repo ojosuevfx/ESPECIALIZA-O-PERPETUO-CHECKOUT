@@ -3,9 +3,9 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Especialização em Aristóteles",
+  title: "Formação em Lógica Aristotélica",
   description:
-    "Estude Aristóteles na ordem certa, direto das fontes primárias, com uma formação clássica guiada por Lucca de Tomás.",
+    "Estude lógica aristotélica na ordem clássica, direto das fontes primárias, com aulas guiadas por Lucca de Tomás.",
   icons: {
     icon: [
       { url: "/favicon.webp", type: "image/webp", sizes: "512x512" },

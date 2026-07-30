@@ -6,33 +6,29 @@ const items = [
   {
     n: "01",
     title: "Você lê antes da aula",
-    desc: "O aluno chega ao encontro com contato prévio com o texto, preparado para acompanhar a discussão e participar melhor.",
+    desc: "Você tem contato com o texto antes da aula, para não assistir de modo passivo e perdido.",
   },
   {
     n: "02",
-    title: "A discussão é guiada pelo Lucca",
-    desc: "A aula percorre o raciocínio do filósofo com direção, perguntas e retomadas, para transformar leitura difícil em compreensão sólida.",
+    title: "Informação vira conhecimento",
+    desc: "Lucca antecipa as dúvidas que normalmente aparecem e conduz o conteúdo com exemplos, distinções e retomadas.",
   },
   {
     n: "03",
-    title: "Informação vira conhecimento",
-    desc: "Explicar um ponto, ouvir outro aluno e retornar ao texto torna a assimilação muito mais profunda do que assistir passivamente.",
-  },
-  {
-    n: "04",
     title: "Você dialoga com o próprio filósofo",
     desc: "O centro não é um resumo ou intermediário, mas o texto original bem conduzido, para que você deixe de depender de frases prontas.",
   },
   {
-    n: "05",
+    n: "04",
     title: "Você revisa no seu ritmo",
-    desc: "As aulas ficam gravadas na plataforma, para que você possa retomar os pontos difíceis quantas vezes precisar.",
+    desc: "As aulas ficam disponíveis na plataforma, para que você possa retomar os pontos difíceis quantas vezes precisar.",
   },
 ];
 
 export default function HowItWorks() {
   return (
     <section
+      id="metodo"
       style={{ display: "flex", flexDirection: "column", alignItems: "center", width: "100%", padding: "120px 0", borderTop: "1px solid rgba(244,245,246,0.06)" }}
     >
       <div className="how-inner" style={{ width: "1140px" }}>
@@ -48,11 +44,11 @@ export default function HowItWorks() {
         >
           <div>
             <h2 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "36px", lineHeight: "116%", letterSpacing: "-0.025em", color: "var(--color-text-primary)", margin: 0, maxWidth: "420px" }}>
-              Não é um curso para assistir passivamente.
+              Não é conteúdo solto. É estudo guiado, capítulo por capítulo.
             </h2>
           </div>
           <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "15px", lineHeight: "170%", color: "var(--color-text-muted)", maxWidth: "380px", margin: 0, flexShrink: 0 }} className="how-subtext">
-            Na maioria dos cursos, o professor fala por uma hora e meia e o aluno esquece quase tudo depois. Na Especialização, a aula é uma discussão guiada: você lê, participa e percorre o raciocínio do filósofo até compreender com profundidade o que ele queria dizer.
+            Na maioria dos cursos, o professor fala por uma hora e meia e o aluno esquece quase tudo depois. Aqui, cada aula percorre o texto com calma: você acompanha o raciocínio do Filósofo e entende por que cada distinção importa.
           </p>
         </motion.div>
 

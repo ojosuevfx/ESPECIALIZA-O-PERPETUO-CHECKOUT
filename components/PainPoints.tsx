@@ -3,11 +3,11 @@
 import { motion } from "framer-motion";
 
 const painPoints = [
-  "Você começa animado, mas em uma semana já desanima e desiste de tudo.",
-  "Você se esforça para ler e entender os clássicos, mas eles parecem mais um enigma indecifrável do que um livro.",
-  "Você compra alguns cursos, mas todos são superficiais e só te dão algumas noções soltas.",
-  "Você procura uma ordem certa, um método, um caminho seguro, mas nunca acha.",
-  "Você desanima, se sente perdido e começa a achar que filosofia não é para você.",
+  "Você tenta estudar Aristóteles, mas trava logo nas primeiras distinções.",
+  "Você ouve falar em silogismo, predicáveis e categorias, mas tudo parece técnico demais.",
+  "Você pula para ética, política ou metafísica sem ter aprendido a ferramenta do pensamento.",
+  "Você quer ler as fontes, mas falta uma ordem segura para atravessar a lógica do início ao fim.",
+  "Você percebe que precisa de base antes de tentar interpretar qualquer grande obra filosófica.",
 ];
 
 export default function PainPoints() {
@@ -19,11 +19,11 @@ export default function PainPoints() {
         <div className="pain-left" style={{ position: "sticky", top: "120px", display: "flex", flexDirection: "column", gap: "32px" }}>
           <div>
             <h2 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "34px", lineHeight: "116%", letterSpacing: "-0.025em", color: "var(--color-text-primary)", margin: "0 0 20px" }}>
-              Se você já tentou estudar filosofia sozinho,{" "}
-              <span style={{ color: "var(--color-accent)" }}>sabe bem o que é isso.</span>
+              Antes de estudar filosofia, você precisa aprender{" "}
+              <span style={{ color: "var(--color-accent)" }}>a pensar com ordem.</span>
             </h2>
             <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "15px", lineHeight: "170%", color: "var(--color-text-muted)", margin: 0 }}>
-              A frustração quase nunca nasce de falta de inteligência. Ela nasce de estudar sem ordem, sem boas fontes e sem um mestre para guiar cada passo.
+              A lógica é a porta de entrada da tradição aristotélica. Sem ela, os textos seguintes parecem confusos; com ela, você ganha método para julgar, definir, distinguir e demonstrar.
             </p>
           </div>
 
@@ -31,10 +31,10 @@ export default function PainPoints() {
           <div style={{ position: "relative", padding: "24px 28px", borderRadius: "16px", background: "rgba(200,169,110,0.03)", border: "1px solid rgba(200,169,110,0.08)" }}>
             <div style={{ position: "absolute", top: "24px", left: "-1px", width: "3px", height: "calc(100% - 48px)", background: "linear-gradient(to bottom, #c8a96e, rgba(200,169,110,0.2))", borderRadius: "0 2px 2px 0" }} />
             <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "15px", lineHeight: "170%", color: "var(--color-text-muted)", margin: "0 0 12px", fontStyle: "italic" }}>
-              A educação não é o preenchimento de um balde, mas o acender de uma chama.
+              Quem começa pela lógica não está atrasando o estudo: está construindo o instrumento que torna todo o resto possível.
             </p>
             <span style={{ fontFamily: "'Inter', sans-serif", fontWeight: 500, fontSize: "12px", color: "var(--color-accent)", letterSpacing: "0.04em" }}>
-              William Butler Yeats
+              Lógica Aristotélica
             </span>
           </div>
         </div>
@@ -70,10 +70,10 @@ export default function PainPoints() {
             style={{ marginTop: "28px", padding: "30px 32px", borderRadius: "18px", background: "rgba(200,169,110,0.06)", border: "1px solid rgba(200,169,110,0.16)", borderLeft: "3px solid rgba(200,169,110,0.7)" }}
           >
             <h3 style={{ fontFamily: "'Plus Jakarta Sans', sans-serif", fontWeight: 800, fontSize: "24px", lineHeight: "122%", letterSpacing: "-0.02em", color: "#F4F5F6", margin: "0 0 14px" }}>
-              Você não fracassou por falta de inteligência.
+              O problema não é começar pequeno. É começar fora da ordem.
             </h3>
             <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 400, fontSize: "15px", lineHeight: "170%", color: "#8A9AA4", margin: 0 }}>
-              Estudar os grandes textos exige três coisas ao mesmo tempo: a ordem certa, uma fonte original bem traduzida e um mestre que te ensina de verdade, não apenas repete o que alguém disse que outro alguém pensou.
+              Por isso esta formação concentra tudo na lógica aristotélica: estudada na sequência tradicional, com aulas gravadas e acesso para revisar com calma.
             </p>
           </motion.div>
         </div>

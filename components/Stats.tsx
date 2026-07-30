@@ -1,5 +1,5 @@
 const stats = [
-  { number: "4 anos", label: "de formação filosófica estruturada" },
+  { number: "2 anos", label: "de acesso à plataforma" },
   { number: "100%", label: "online com discussão guiada" },
   { number: "2.500+", label: "anos de tradição revisitada" },
   { number: "Vagas limitadas", label: "por turma para qualidade real" },

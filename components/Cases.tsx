@@ -11,7 +11,7 @@ const testimonials = [
     role: "Depoimento",
   },
   {
-    text: "Eu estava procurando há 4 anos uma ordem no conhecimento de Aristóteles e não encontrava. Ter encontrado o Lyceum me deu a paz de saber que finalmente achei esse lugar.",
+    text: "Eu estava procurando uma ordem no conhecimento de Aristóteles e não encontrava. Ter encontrado o Lyceum me deu a paz de saber que finalmente achei esse lugar.",
     initials: "",
     name: "Aluno do Lyceum",
     role: "Depoimento",
