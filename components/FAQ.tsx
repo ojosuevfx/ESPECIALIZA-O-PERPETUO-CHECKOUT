@@ -150,7 +150,7 @@ export default function FAQ() {
           Dúvidas? Fale com o nosso suporte.
         </h3>
         <p style={{ fontFamily: "'Inter', sans-serif", fontWeight: 500, fontSize: "14px", color: "#9c927e", margin: 0 }}>
-          <a href="https://api.whatsapp.com/send/?phone=5555559936959&text=Olá%21+Vim+pela+página+da+Lógica+e+gostaria+de+falar+com+um+consultor.&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" style={{ color: "#d6ad61", textDecoration: "none", fontWeight: 700 }}>Clique aqui</a>{" "}
+          <a href="https://api.whatsapp.com/send/?phone=5599369591&text=Ol%C3%A1%21+Vim+pela+p%C3%A1gina+da+L%C3%B3gica+e+gostaria+de+falar+com+um+consultor.&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" style={{ color: "#d6ad61", textDecoration: "none", fontWeight: 700 }}>Clique aqui</a>{" "}
           para falar com o suporte.
         </p>
       </motion.div>
